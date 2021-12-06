@@ -1,0 +1,87 @@
+body {
+  background-color: #2D1300;
+  max-width: auto;
+  height: auto;
+  margin: auto;
+}
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'menu'
+    'main'
+    'footer';
+  grid-gap: 10px;
+  background-color: #black;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+.knapper {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2D1300;
+  color: #DE9967;
+}
+@media screen and (max-width: 600px){
+.knapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #2D1300;
+}
+}
+
+.projekter > nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projekt1 {
+  background-color: #DE9967;
+  height: 400px;
+  color: #2D1300;
+}
+.projekt2 {
+  background-color: #DE9967;
+  height: 400px;
+  margin-top: 5px;
+  color: #2D1300;
+}
+.projekt3 {
+  background-color: #DE9967;
+  height: 400px;
+  margin-top: 5px;
+  color: #2D1300;
+}
+.projekt4 {
+  background-color: #DE9967;
+  height: 400px;
+  margin-top: 5px;
+  color: #2D1300;
+}
+.projekt5 {
+  background-color: #DE9967;
+  height: 400px;
+  margin-top: 5px;
+  color: #2D1300;
+}
+.projekt6 {
+  background-color: #DE9967;
+  height: 400px;
+  margin-top: 5px;
+  color: #2D1300;
+}
