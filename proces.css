@@ -180,28 +180,22 @@ font-size: 30px;
 }
 
 .velkomst {
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: #DE9967;
-  width: 90%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 20px;
 }
 
 .anton {
+  text-align: center;
   font-family: "Times New Roman", Times, serif;
   color: #DE9967;
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
 }
 
 .bio {
+  max-width: 1100px;
   background-color: #DE9967;
-  margin: 5px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 5px;
 }
 
 .foot{
